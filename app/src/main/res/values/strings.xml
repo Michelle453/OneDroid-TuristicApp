@@ -10,7 +10,14 @@
     <string name="dist_airport">Distancia al lugar desde el Aeropuerto: 18 min en auto (6,8  km) por Av. Loma Barrack.</string>
     <string name="cueva">cueva</string>
     <string name="subt_temperatura">Promedio de Temperatura:</string>
-    <string name="subtitle_ubication">Ubicación:</string>
     <string name="subt_ubbication">Ubicación:</string>
     <string name="subt_dist_airpot">Distancia al lugar desde el aeropuerto:</string>
+    <string name="title_acuario">Cayo Acuario</string>
+    <string name="descrip_acuario">"UN ENCUENTRO CON LA NATURALEZA Y ANIMALES FANTASTICOS"</string>
+    <string name="descrip_img_cayo">Foto del Cayo Acuario</string>
+    <string name="autor_foto_cayo"><![CDATA[Foto: Jhon Freddy O. (https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/97/9d/08/photo2jpg.jpg?w=1200&h=-1&s=1)]]></string>
+    <string name="temp_cayo">28°C a 31°C</string>
+    <string name="subtitle_ubication">Ubicación:</string>
+    <string name="ubication_cayo">Este de la Isla de San Andrés, al frente de su puerto. A 200 metros al norte de Cayo Haynes.</string>
+    <string name="description_cayo">Playa blanca con agua cristalina donde se puede disfrutar del contacto con diferentes animales acuáticos como peces, mantarrayas,  erizos y pequeños tiburones. Igualmente, se puede realizar pràcticas acuáticas. En este lugar se podrá degustar de comida de mar y el árbol del pan, el cual es un plato típico de la región. Es importante tener en cuenta que el precio del tour es de $38.000 incluyendo Johnny Cay.</string>
 </resources>
