@@ -4,10 +4,10 @@ TurísticAPP es una aplicación móvil para dispositivos Android creada por el e
 
 ## Equipo de Trabajo✒️
 
-- **full name :** short description.
-- **Bayron Andrés Jiménez Rodríguez :** Abogado y programador empírico.
-- **Yineth Valentina Rodriguez Vargas :** administradora hotelera y turistica (me gusta leer, los idiomas y hacer ejercicio)
-- **JuanSe Suescún Gil :** Ingeniero mecánico e ingeniero industrial (Universidad Nacional de Colombia), Runner y futbolista aficionado, Sigo aprendiendo diariamente y amando mas el desarrollo software y de Apps.
+- **Michelle Berrio Sánchez:** Estudiante de Ingeniería en Electrónica de Uniquindío.
+- **Bayron Andrés Jiménez Rodríguez:** Abogado y programador empírico.
+- **Yineth Valentina Rodriguez Vargas:** Administradora hotelera y turistica (me gusta leer, los idiomas y hacer ejercicio)
+- **JuanSe Suescún Gil:** Ingeniero mecánico e ingeniero industrial (Universidad Nacional de Colombia), Runner y futbolista aficionado, Sigo aprendiendo diariamente y amando mas el desarrollo software y de Apps.
 - **Juan C. Ruiz:** Profesor Universitario de idiomas, entusiasta del TechEd y los rompecabezas.
 
 ## Misión TIC 2022🚀
