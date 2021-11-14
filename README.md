@@ -9,6 +9,7 @@ TurísticAPP es una aplicación móvil para dispositivos Android creada por el e
 - **Yineth Valentina Rodriguez Vargas:** Administradora hotelera y turistica (me gusta leer, los idiomas y hacer ejercicio)
 - **JuanSe Suescún Gil:** Ingeniero mecánico e ingeniero industrial (Universidad Nacional de Colombia), Runner y futbolista aficionado, Sigo aprendiendo diariamente y amando mas el desarrollo software y de Apps.
 - **Juan C. Ruiz:** Profesor Universitario de idiomas, entusiasta del TechEd y los rompecabezas.
+- **Alvaro Rivera Giraldo:** (Agregar descripción corta)
 
 ## Misión TIC 2022🚀
 
