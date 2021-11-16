@@ -102,8 +102,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
-        android:justificationMode="inter_word"
         android:fontFamily="@font/montserrat_bold"
+        android:justificationMode="inter_word"
         android:text="@string/descip_larga"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -158,5 +158,18 @@
         android:text="@string/subt_dist_airpot"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/buttonSprattBight"
+        android:layout_width="152dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:insetTop="1dp"
+        android:insetBottom="1dp"
+        android:text="Spratt Bight"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
