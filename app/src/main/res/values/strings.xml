@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">   TuristicApp - San Andrés Islas</string>
+    <string name="app_name">TuristicApp: San Andrés Islas</string>
     <string name="cueva_de_morgan">Cueva de Morgan</string>
     <string name="descrip_cueva_morgan">MUSEO TRIBUTO A LA LEYENDA DE \"EL PIRATA MORGAN\"</string>
     <string name="foto_descrip">Foto: Andrés Vélez \n(https://www.flickr.com/photos/139734115@N02/28539139338/in/photostream/)</string>
