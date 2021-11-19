@@ -23,7 +23,7 @@
 
     <!--Spratt Bight-->
     <string name="title_spratt_bight">Spratt Bight</string>
-    <string name="general_description_spratt_bight">"LA PLAYA MÁS TURÍSTICA Y RECONOCIDA DE SAN ANDRÉS."</string>
+    <string name="general_description_spratt_bight">"LA PLAYA MÁS TURÍSTICA Y MÁS RECONOCIDA DE SAN ANDRÉS."</string>
     <string name="description_img_spratt_bight">Foto de la playa Spratt Bight</string>
     <string name="author_photo_spratt_bight"><![CDATA[Foto: Pablo Gonzalez (https://www.flickr.com/photos/pablo_javier/)]]></string>
     <string name="subtitle_temperature">Promedio de Temperatura:</string>
@@ -33,6 +33,8 @@
     <string name="description_spratt_bight">Debido a su excelente localización, a los casi 500 metros de extensión de playas de arena blanca, limpias, seguras y cercanas a restaurantes, complejos hoteleros, bares, cafés y áreas comerciales, esta es una visita imprescindible para los visitantes que llegan a la isla buscando disfrutar del ambiente caribeño.</string>
     <string name="subtitle_distance_airport">Distancia al lugar desde el Aeropuerto: </string>
     <string name="distance_airport_spratt_bight">1.4 km (17 min a pie – 6 min en auto).</string>
+
+    <string name="score_spratt_bight">4.5 / 5.0</string>
 
 
 </resources>
