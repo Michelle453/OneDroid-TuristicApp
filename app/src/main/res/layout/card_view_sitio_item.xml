@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#011847">
+    android:background="#011847"
+    android:textAlignment="textStart">
 
 
     <androidx.cardview.widget.CardView
@@ -42,26 +44,32 @@
             <TextView
                 android:id="@+id/name_text_view"
                 style="@style/Title"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
                 android:text="@string/title_spratt_bight"
-                android:textSize="20sp"
+                android:textAlignment="textStart"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.132"
+                app:layout_constraintHorizontal_bias="0.066"
                 app:layout_constraintStart_toEndOf="@+id/picture_image_view"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/description_text_view"
                 style="@style/descrip_Sub_Title"
-                android:layout_width="251dp"
-                android:layout_height="30dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/general_description_spratt_bight"
                 android:textAlignment="textStart"
-                android:textSize="12sp"
+                android:textSize="11sp"
+                app:layout_constraintBottom_toTopOf="@+id/score_text_view"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/picture_image_view"
@@ -70,10 +78,14 @@
             <TextView
                 android:id="@+id/score_text_view"
                 style="@style/Subtitles_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/score_spratt_bight"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.092"
                 app:layout_constraintStart_toEndOf="@+id/picture_image_view"
