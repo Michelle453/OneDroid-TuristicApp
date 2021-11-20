@@ -1,7 +1,6 @@
 package com.turicticapp.turisticapp
 
-data class Sitio(
-    val name: String,
-    val description: String,
-    val score: String
-)
+
+import com.google.gson.annotations.SerializedName
+
+class Sitio : ArrayList<SitioItem>()

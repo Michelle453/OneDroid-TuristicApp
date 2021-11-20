@@ -6,9 +6,11 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
+
 
 class SitiosAdapter(
-    private val sitiosList: ArrayList<Sitio>
+    private val sitiosList: ArrayList<SitioItem>
 ) : RecyclerView.Adapter<SitiosAdapter.SitioViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SitioViewHolder {
@@ -29,11 +31,12 @@ class SitiosAdapter(
         private var scoreTextView: TextView = itemView.findViewById(R.id.score_text_view)
         private var pictureImageView: ImageView = itemView.findViewById(R.id.picture_image_view)
 
-        fun bind(sitio: Sitio){
+        fun bind(sitio: SitioItem){
             nameTextView.text = sitio.name
             descriptionTextView.text = sitio.description
             scoreTextView.text = sitio.score
-            //picture
+            Picasso.get().load(sitio.urlPicture).into(pictureImageView)
         }
     }
+
 }
