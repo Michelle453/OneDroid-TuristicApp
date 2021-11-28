@@ -1,10 +1,15 @@
-package com.turicticapp.turisticapp
+package com.turicticapp.turisticapp.list
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
+import com.turicticapp.turisticapp.R
+import com.turicticapp.turisticapp.detalle.SprattBightActivity
+import com.turicticapp.turisticapp.model.Sitio
+import com.turicticapp.turisticapp.model.SitioItem
 
 class ListSitiosActivity : AppCompatActivity() {
 
@@ -23,14 +28,20 @@ class ListSitiosActivity : AppCompatActivity() {
 
         //lista JSON
         listSitios = loadMockSitiosFromJson()
-
-        sitiosAdapter = SitiosAdapter(listSitios)
+        sitiosAdapter = SitiosAdapter(listSitios, onItemClicked = { onSitioClicked(it) } )
 
         sitiosRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = sitiosAdapter
             setHasFixedSize(false)
         }
+    }
+
+    private fun onSitioClicked(sitio: SitioItem) {
+        val intent = Intent(this, SprattBightActivity::class.java)
+        intent.putExtra("sitio",sitio)
+        startActivity(intent)
+
     }
 
     private fun loadMockSitiosFromJson(): ArrayList<SitioItem> {
@@ -76,7 +87,7 @@ class ListSitiosActivity : AppCompatActivity() {
                 name = "Cayo Acuario",
                 description = "Encuentro con la naturaleza y contacto con animales fantásticos.",
                 score = "4.5 / 5.0",
-                urlPicture = "https://res.cloudinary.com/juan-carlos-ruiz/image/upload/v1637331283/Tur%C3%ADsticApp/cayoAcuario_peccld.jpg"
+                urlPicture = "https://res.cloudinary.com/juan-carlos-ruiz/image/upload/v1637697979/Tur%C3%ADsticApp_v2/cayoAcuario_mod_wil0kl.jpg"
             ),
             Sitio(
                 name = "Mar de los siete colores",

@@ -17,7 +17,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/name_text_view"
                 style="@style/Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/short_description_text_view"
                 style="@style/descrip_Sub_Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -36,10 +36,10 @@
                 android:text="@string/general_description_spratt_bight"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                app:layout_constraintTop_toBottomOf="@+id/name_text_view" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/picture_image_view"
                 android:layout_width="389dp"
                 android:layout_height="197dp"
                 android:layout_marginTop="8dp"
@@ -47,11 +47,11 @@
                 android:scaleType="fitXY"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                app:layout_constraintTop_toBottomOf="@+id/short_description_text_view"
                 app:srcCompat="@drawable/spratt_bight" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/author_photo_text_view"
                 style="@style/Foto_author"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -60,10 +60,10 @@
                 android:text="@string/author_photo_spratt_bight"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+                app:layout_constraintTop_toBottomOf="@+id/picture_image_view" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/subtitle_temperature_text_view"
                 style="@style/Subtitles_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -71,10 +71,10 @@
                 android:layout_marginTop="12dp"
                 android:text="@string/subtitle_temperature"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+                app:layout_constraintTop_toBottomOf="@+id/author_photo_text_view" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/temperature_text_view"
                 style="@style/Text_normal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -84,11 +84,11 @@
                 android:text="@string/temperature_spratt_bight"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/textView14"
-                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+                app:layout_constraintStart_toEndOf="@+id/subtitle_temperature_text_view"
+                app:layout_constraintTop_toBottomOf="@+id/author_photo_text_view" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/subtitle_location_text_view"
                 style="@style/Subtitles_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -99,10 +99,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+                app:layout_constraintTop_toBottomOf="@+id/subtitle_temperature_text_view" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/location_text_view"
                 style="@style/Text_normal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -113,28 +113,29 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+                app:layout_constraintTop_toBottomOf="@+id/subtitle_location_text_view" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/long_description_text_view"
                 style="@style/Text_normal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:gravity="fill_horizontal|end"
                 android:justificationMode="inter_word"
+
                 android:text="@string/description_spratt_bight"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView17"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintTop_toBottomOf="@+id/location_text_view"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="UnusedAttribute"/>
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/subtitle_distance_airport_text_view"
                 style="@style/Text_normal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -146,10 +147,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+                app:layout_constraintTop_toBottomOf="@+id/long_description_text_view" />
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/distance_airport_text_view"
                 style="@style/Text_normal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -163,7 +164,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView19"
+                app:layout_constraintTop_toBottomOf="@+id/subtitle_distance_airport_text_view"
                 app:layout_constraintVertical_bias="1.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
