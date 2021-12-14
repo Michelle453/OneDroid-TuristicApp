@@ -4,7 +4,7 @@ TurísticAPP es una aplicación móvil para dispositivos Android creada por el e
 
 ## Equipo de Trabajo (OneDroid)✒️
 
-- **Michelle Berrio Sánchez:** Estudiante de Ingeniería en Electrónica de Uniquindío.
+- **Michelle Berrio Sánchez:** Estudiante de Ingeniería Electrónica en la Universidad del Quindío.
 - **Bayron Andrés Jiménez Rodríguez:** Abogado y programador empírico.
 - **Yineth Valentina Rodriguez Vargas:** Administradora hotelera y turistica (me gusta leer, los idiomas y hacer ejercicio)
 - **JuanSe Suescún Gil:** Ingeniero mecánico e ingeniero industrial (Universidad Nacional de Colombia), Runner y futbolista aficionado, Sigo aprendiendo diariamente y amando mas el desarrollo software y de Apps.
