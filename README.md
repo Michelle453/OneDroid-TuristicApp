@@ -1,3 +1,7 @@
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/Michelle453/OneDroid-TuristicApp/blob/master/tapp/src/main/res/drawable-v24/logo_app.png">
+</p>
+
 # TurísticAPP🛠️
 
 TurísticAPP es una aplicación móvil para dispositivos Android creada por el equipo OneDroid que permite visualizar información de sitios turísticos de San Andrés Islas, Colombia. Este proyecto se crea en el marco del Ciclo IV del Programa MisiónTic 2022 en la UDEA (Universidad de Antioquia). El lenguaje de programación usado es Kotlin.
